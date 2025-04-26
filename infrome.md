@@ -39,39 +39,41 @@ Para realizar esta practica el estudiante necesita tener claro los siguientes te
 - Documentacion sobre comandos basicos para la creacion de redes de contenedores.
   
 ## 8. Procedimiento
+Paso 1:Descargar la imagen mysql de docker hub  ![ver en que usuario estoy](images/image1.png)
 
-Paso 1:Crear un contenedor para MySQL, definiendo las credenciales necesarias.  ![ver en que usuario estoy](images/image1.png)
+
+Paso 2:Crear un contenedor para MySQL, definiendo las credenciales necesarias.  ![ver en que usuario estoy](images/image2.png)
 
 
-Paso 2: Verificar lo creado
-
-![ver en que usuario estoy](images/image2.png)
-
-paso 3: intalar la imagen de phpMyAdmin
+Paso 3: Verificar lo creado
 
 ![ver en que usuario estoy](images/image3.png)
 
-
-paso 4: Crear un contenedor para phpMyAdmin, configurando las credenciales
+paso 4: intalar la imagen de phpMyAdmin
 
 ![ver en que usuario estoy](images/image4.png)
 
-paso 5: Crear una red personalizada en Docker que permita la comunicación entre ambos contenedores.
+
+paso 5: Crear un contenedor para phpMyAdmin, configurando las credenciales
+
 ![ver en que usuario estoy](images/image5.png)
 
-paso 6: Conectar ambos contenedores a la red creada.
+paso 6: Crear una red personalizada en Docker que permita la comunicación entre ambos contenedores.
 ![ver en que usuario estoy](images/image6.png)
 
-paso 7: Configurar la conexión entre phpMyAdmin y MySQL.
+paso 7: Conectar ambos contenedores a la red creada.
 ![ver en que usuario estoy](images/image7.png)
 
-paso 8:Crear una base de datos de prueba desde la interfaz de phpMyAdmin.
+paso 8: Configurar la conexión entre phpMyAdmin y MySQL.
 ![ver en que usuario estoy](images/image8.png)
+
+paso 9:Crear una base de datos de prueba desde la interfaz de phpMyAdmin.
+![ver en que usuario estoy](images/image9.png)
 
 
 ## 9. Resultados esperados:
     
-Al finalizar esta practica se pudo evidenciar la importancia de la practica anterior sobre el uso de imagenes, volumenes y creacion de bases de datos, enterder como usar un volumen, crear una red de contenedores y la conexion entre estos.
+Al finalizar esta practica se pudo evidenciar la importancia de la practica anterior sobre el uso de imagenes y creacion de bases de datos, enterder como crear, conectar y usar una red de contenedores.
 
 
 ## 10. Bibliografía
